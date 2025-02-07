@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export && node scripts/sync-html.js",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "sync-html": "node scripts/sync-html.js"
